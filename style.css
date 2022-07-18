@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: roboto;
+  }
+
+  body{
+    margin: 0;
+  }
+
+  header{
+    background-color: #1F2937;
+  }
+
+  .hero-logo, .hero-primary-text{
+    color: #F9FAF8;
+  } 
+
+  .hero-logo{
+    margin-top: 0;
+    color: #F9FAF8;
+    font-size: 24px;
+  } 
+
+  ul{}
+
+  li{}
+
+  a , .hero-secondary-text{
+    color: #E5E7EB;
+    font-size: 18px;
+  }
+
+  .description{}
+
+  .hero-primary-text{
+    font-size: 48px;
+  }
+
+  .hero-secondary-text{
+   
+  }
