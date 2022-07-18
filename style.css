@@ -9,6 +9,18 @@
 
   header{
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 15%;
+    gap: 60px;
+    padding-top: 25px;
+    padding-bottom: 80px;
+  }
+
+  .hero-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .hero-logo, .hero-primary-text{
@@ -16,21 +28,37 @@
   } 
 
   .hero-logo{
-    margin-top: 0;
+    flex: 1;
+    margin: 0;
     color: #F9FAF8;
     font-size: 24px;
   } 
 
-  ul{}
+  .nav-menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 18px;
+  }
 
-  li{}
+  li{
+    list-style: none;
+  }
 
   a , .hero-secondary-text{
     color: #E5E7EB;
     font-size: 18px;
+    text-decoration: none;
   }
 
-  .description{}
+  .hero-content{
+    display: flex;
+    gap: 32px;
+  }
+
+  .description{
+    flex: 1;
+  }
 
   .hero-primary-text{
     font-size: 48px;
@@ -38,4 +66,19 @@
 
   .hero-secondary-text{
    
+  }
+
+  .hero-link{
+    background-color: #3882F6;
+    padding: 2% 6%;
+    border-radius: 10px;
+  }
+
+  .image-place{
+    flex: 1;
+    background-color: gray;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
